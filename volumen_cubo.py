@@ -5,9 +5,9 @@ def volumen_cubo(n):
 
 valor_lado = 4
 
-if type(valor_lado) not in[int, float]:
-    raise TypeError("El lado tiene que "
-                    "ser un número mayor o igual que cero y real")
+if valor_lado < 0:
+    raise ValueError("No hagas eso, "
+                     "no tiene sentido introducir un lado negativo")
 
 print()
 print("El volumen de este cubo es: ",

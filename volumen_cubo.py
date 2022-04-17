@@ -6,5 +6,4 @@ def volumen_cubo(n):
 valor_lado = 4
 
 print()
-print("El volumen de un cubo de lado", valor_lado, "es de",
-      volumen_cubo(valor_lado), ".")
+print("El volumen de este cubo es: ", valor_lado*valor_lado*valor_lado, "m^3")

@@ -5,5 +5,10 @@ def volumen_cubo(n):
 
 valor_lado = 4
 
+if type(valor_lado) not in[int, float]:
+    raise TypeError("El lado tiene que "
+                    "ser un número mayor o igual que cero y real")
+
 print()
-print("El volumen de este cubo es: ", valor_lado*valor_lado*valor_lado, "m^3")
+print("El volumen de este cubo es: ",
+      valor_lado*valor_lado*valor_lado, "m^3")

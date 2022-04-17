@@ -1,6 +1,9 @@
 def signo_numero(n):
     if n < 0:
         print("Este número es negativo.")
+    elif n = 0:
+        print("El número es neutro.")
     else:
         print("Este número es positivo.")
-gdfhdfgh
+
+Muy buenas tardes Don Samuel.
